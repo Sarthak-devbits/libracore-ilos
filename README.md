@@ -1,42 +1,23 @@
-# Libracore ILOS (Institutional Library Operations System)
+# 📚 Libracore ILOS – Institutional Library Operations System
 
-**Libracore ILOS** is a professional-grade, full-stack University Library Management System designed to modernize and streamline academic resource operations. Built with a modular architecture, Libracore ILOS is optimized for scalability, maintainability, and institutional compliance.
+**Libracore ILOS** is a professional-grade, full-stack University Library Management System built using **Next.js**. It is designed to streamline academic resource management for higher education institutions with features such as inventory control, user roles, borrowing systems, and analytics.
 
----
-
-## 📚 Features
-
-- 🔍 Advanced Book & Resource Search
-- 📦 Inventory Management (Books, Journals, Media)
-- 👨‍🎓 Student & Faculty User Management
-- 📅 Borrowing & Return Scheduling
-- 📈 Real-time Activity Logs & Analytics
-- 🔐 Secure Authentication & Role-Based Access
-- 🌐 API-Ready for Institutional Integration
+> **ILOS** stands for **Institutional Library Operations System**, the formal term used to describe this initiative.
 
 ---
 
-## 🧱 Tech Stack
+## 🚀 Getting Started
 
-| Layer         | Technology             |
-|---------------|------------------------|
-| Frontend      | React / Vue / Angular *(your choice)* |
-| Backend       | Node.js / Django / Laravel *(your choice)* |
-| Database      | PostgreSQL / MongoDB   |
-| Authentication| JWT / OAuth 2.0        |
-| Hosting       | AWS / Heroku / Netlify |
-| Versioning    | Git + GitHub           |
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
----
+### 📦 Run the development server:
 
-## 🏛️ Target Audience
-
-- **Universities & Academic Institutions**
-- **Campus Libraries**
-- **Educational IT Departments**
-- **Research & Academic Resource Centers**
-
----
-
-## 📁 Project Structure
-
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
