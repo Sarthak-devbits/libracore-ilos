@@ -33,14 +33,14 @@ const BookCover = ({
   return (
     <div
       className={cn(
-        "relative transition-all duration-300",
+        "relative transition-all duration-300  overflow-hidden rounded-lg",
         variantStyles[variant],
         className
       )}
     >
       <BookCoverSvg coverColor={coverColor} />
 
-      <div className="absolute z-10 flex justify-center items-center w-full">
+      <div className="absolute z-10 flex justify-center items-center w-full ">
         <Image
           src={coverImage}
           alt="Book cover"

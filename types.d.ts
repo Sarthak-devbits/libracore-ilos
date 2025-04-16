@@ -11,6 +11,7 @@ interface Book {
   cover: string;
   video: string;
   summary: string;
+  isLoanedBook:boolean
 }
 
 interface AuthCredentials {

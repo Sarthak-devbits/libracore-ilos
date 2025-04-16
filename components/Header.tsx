@@ -9,7 +9,7 @@ import { cn } from "@/lib/utils";
 const Header = () => {
   const pathName = usePathname();
   return (
-    <header className="my-10 flex justify-between gap-5">
+    <header className="mt-4 md:mt-10 flex justify-between gap-5">
       <Link href="/" className="flex justify-center items-center">
         <Image src="/icons/library.png" alt="logo" width={40} height={40} />
         <span> Libracore</span>

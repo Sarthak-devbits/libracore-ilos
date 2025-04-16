@@ -1,6 +1,8 @@
 import Image from "next/image";
 import React from "react";
 import BookCover from "./BookCover";
+import { Button } from "./ui/button";
+import { BookIcon } from "lucide-react";
 
 interface Props extends Book {
   userId: string;
@@ -52,6 +54,10 @@ const BookOverview = async ({
         </div>
 
         <p className="book-description">{description}</p>
+        <Button className="cursor-pointer">
+          <BookIcon />
+          <p className="">Borrow</p>
+        </Button>
 
         {/* {user && (
           <BorrowBook
@@ -63,7 +69,7 @@ const BookOverview = async ({
       </div>
 
       <div className="relative flex flex-1 justify-center ">
-        <div className="relative w-full">
+        <div className="relative w-full ">
           <BookCover
             variant="wide"
             className="z-10"
@@ -71,13 +77,13 @@ const BookOverview = async ({
             coverImage={cover}
           />
 
-          {/* <div className="absolute left-16 top-10 rotate-12 opacity-40 max-sm:hidden">
+          <div className="absolute left-16 top-10 rotate-12 opacity-40 max-sm:hidden  w-full">
             <BookCover
               variant="wide"
               coverColor={coverColor}
               coverImage={cover}
             />
-          </div> */}
+          </div>
         </div>
       </div>
     </section>

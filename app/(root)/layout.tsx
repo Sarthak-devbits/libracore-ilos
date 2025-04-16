@@ -4,7 +4,7 @@ import React, { ReactNode } from "react";
 const Layout = ({ children }: { children: ReactNode }) => {
   return (
     <main className="main-container">
-      <div className="mx-auto max-w-7xl">
+      <div className="mx-auto max-w-7xl px-5">
         <Header />
         <div className="my-20 pb-20">{children}</div>
       </div>

@@ -8,11 +8,11 @@ export default function Home() {
     <>
       <h1 className="">
         <BookOverview {...sampleBooks[0]} />
-        {/* <BookList
+        <BookList
           title="Latest Books"
           books={sampleBooks}
           containerClassName="mt-28"
-        /> */}
+        />
       </h1>
     </>
   );
